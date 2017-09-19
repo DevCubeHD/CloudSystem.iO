@@ -1,0 +1,6 @@
+name: AddonExample [CORE] Sign-Blocks
+version: 1.0
+author: Felix Gaebler
+main: io.cloudsystem.addon.Main
+website: https://cloudsystem.io/
+depend: [Core]
