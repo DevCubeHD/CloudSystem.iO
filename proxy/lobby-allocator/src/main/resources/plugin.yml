@@ -1,0 +1,6 @@
+name: AddonExample [PROXY] Lobby-Allocator
+version: 1.0
+author: Felix Gaebler
+main: io.cloudsystem.addon.Main
+website: https://cloudsystem.io/
+depend: [Proxy]

@@ -1,2 +1,7 @@
-core/sign-blocks/.idea/
 *.iml
+core/sign-blocks/.idea/
+core/sign-blocks/target/
+proxy/hub-command/.idea/
+proxy/hub-command/target/
+proxy/lobby-allocator/.idea/
+proxy/lobby-allocator/target/

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>CloudSystem-Examples</groupId>
-    <artifactId>Sign-Blocks</artifactId>
+    <artifactId>Hub-Command</artifactId>
     <version>1.0</version>
 
     <build>
@@ -54,23 +54,24 @@
 
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id>bungeecord-repo</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
             <groupId>CloudSystem</groupId>
-            <artifactId>Core</artifactId>
+            <artifactId>Proxy</artifactId>
             <version>1.0.1</version>
             <scope>system</scope>
-            <systemPath>E:/CloudSystem.IO/Core/out/artifacts/Core_jar/Core.jar</systemPath>
+            <systemPath>E:/CloudSystem.IO/Proxy/out/artifacts/Proxy_jar/Proxy.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.11.2-R0.1-SNAPSHOT</version>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-api</artifactId>
+            <version>1.12-SNAPSHOT</version>
+            <type>jar</type>
             <scope>provided</scope>
         </dependency>
     </dependencies>
